@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block title %}Yummy{% endblock %}
+{% block button %}
+<a href="{{ url_for('auth.login') }}" class="btn btn-outline-dark sign-up-button">Log In</a>
+{% endblock %}
+{% block content %}
+<div class="box">
+    <div class="row align-items-center">
+        <div class="col-lg-6">
+            <div class="d-flex flex-column align-items-start">
+                <h1 class="text-shadow">Savor Every Bite,</h1>
+                <h1 class="text-shadow">Share Every Recipe</h1>
+                <a href="{{ url_for('auth.sign_up') }}" class="btn btn-dark sign-up-button mt-3">Start Your Culinary
+                    Journey</a>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img src="{{ url_for('static', filename='images/cooking.png') }}" class="img-fluid" alt="Cooking">
+        </div>
+    </div>
+</div>
+{% endblock %}

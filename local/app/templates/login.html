@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block button %}
+<a href="{{ url_for('auth.sign_up') }}" class="btn btn-outline-dark sign-up-button">Sign Up</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <form method="post">
+            <h3 align="center">Welcome Back!</h3>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="abc@email.com" />
+                <label for="password">Your Password</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="123456" />
+                <br />
+                <button class="btn btn-outline-dark">Login</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

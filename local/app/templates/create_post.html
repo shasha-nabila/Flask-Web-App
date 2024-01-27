@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<form method="POST" action="{{ url_for('views.create_post') }}" class="text-center">
+    <h1 align="center">Share a Recipe</h1>
+    <br />
+    <div class="form-group">
+        <select class="form-select" id="meal_type" name="meal_type" aria-label="Default select example">
+            <option value="" selected disabled>Select Meal Type</option>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+            <option value="Supper">Supper</option>
+            <option value="Dessert">Dessert</option>
+            <option value="Snack">Snack</option>
+        </select>
+    </div>
+    <br />
+    <div class="form-group">
+        <textarea name="text" id="text" class="form-control" rows="5"></textarea>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-outline-dark">Post</button>
+</form>
