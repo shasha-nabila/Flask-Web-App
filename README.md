@@ -1,7 +1,7 @@
 # Flask Web Application
-My website, Yummy is an interactive recipe-sharing platform, fostering a vibrant community where users share and explore diverse recipes. It enables seamless sharing, liking, and searching for recipes based on meal types or keywords. Users engage in a dynamic culinary experience, connecting through their love for food and discovering new flavors at their fingertips.
+My web app, Yummy is an interactive recipe-sharing platform, fostering a vibrant community where users share and explore diverse recipes. It enables seamless sharing, liking, and searching for recipes based on meal types or keywords. Users engage in a dynamic culinary experience, connecting through their love for food and discovering new flavors at their fingertips.
 
-View the deployed website [here](https://flask-yummy.onrender.com/). If you would like to view the website locally, follow the instructions below.
+View the deployed app [here](https://flask-yummy.onrender.com/). If you would like to view the app locally, follow the instructions below.
 
 <br>
 
